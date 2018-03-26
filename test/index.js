@@ -6,9 +6,9 @@ var fs = require('fs');
 
 describe('generator-addin:index.html', function () {
   var props = {
-      name: 'my addin',
-      path: '',
-      type: 'MyGeotabPage'
+      name: 'Testing Module Add-In',
+      path: 'https://apps.busboss.com/test/studentpatrol/login.aspx',
+      type: 'Test Tracking Module'
     },
     js;
 
