@@ -22,7 +22,7 @@ describe('generator-addin:page', function () {
   before(function (done) {
     helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({
-        name: 'my addin',
+        name: 'Test Tracking Module',
         type: 'MyGeotabPage'
       })
       .on('end', done);
